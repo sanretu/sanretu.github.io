@@ -1,1 +1,21 @@
-Hello world
+---
+layout: default
+title: Posts
+---
+
+<div id="index">
+	<h2 class="title">{{ page.title }}</h2>
+
+	<ul class="posts">
+		{% if site.posts %}
+			{% for post in site.posts %}
+				<li class="post">
+					<a href="{{ site.url }}{{ post.url }}">
+						<span>{{ post.title }}</span>
+						<time>{{ post.date | date_to_string }} </time>
+					</a>
+				</li>
+			{% endfor %}
+		{% endif %}
+	</ul>
+</div>
