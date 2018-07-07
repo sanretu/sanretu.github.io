@@ -3,9 +3,7 @@ layout: post
 title: "非検査例外におけるthrowsを記載するかどうか"
 ---
 
-まず発端がこのツイート
-
-{% tweet https://twitter.com/302_gf/status/1014344249037320192?s=12 %}
+まず発端がこの[ツイート](https://twitter.com/302_gf/status/1014344249037320192?s=12)
 
 このときの自分の立場は
 「throws宣言は強制されないから書かなくて良い」
