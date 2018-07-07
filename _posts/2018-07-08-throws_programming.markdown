@@ -5,7 +5,7 @@ title: "非検査例外におけるthrowsを記載するかどうか"
 
 まず発端がこのツイート
 
-{% twitter https://twitter.com/302_gf/status/1014344249037320192?s=12 %}
+{% tweet https://twitter.com/302_gf/status/1014344249037320192?s=12 %}
 
 このときの自分の立場は
 「throws宣言は強制されないから書かなくて良い」
